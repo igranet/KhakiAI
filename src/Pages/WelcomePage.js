@@ -3,7 +3,7 @@ const WelcomePage = ()=>{
     return (
         <div className="w-full h-screen flex flex-col bg-slate-50">
             <div className="mx-auto my-auto p-12 bg-white border border-gray-300 rounded-md shadow-sm flex flex-col h-1/3">
-                <div className="mx-auto my-auto w-2/3 bg-blue-200 text-center rounded-md py-1 cursor-pointer">
+                <div onClick={()=>{window.location.href = "/login"}} className="mx-auto my-auto w-2/3 bg-blue-200 text-center rounded-md py-1 cursor-pointer">
                     Login
 
                 </div>

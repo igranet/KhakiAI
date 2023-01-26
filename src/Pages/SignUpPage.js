@@ -43,7 +43,7 @@ const SignUpPage = ()=>{
     }
     return (
         <div className="w-full h-screen bg-slate-100 flex flex-col">
-            <div className="my-auto mx-auto w-1/3 p-12 h-1/3 bg-gray-50 shadow-md border border-gray-300 rounded-md">
+            <div className="my-auto mx-auto w-1/4 p-12 h-1/3 bg-gray-50 shadow-md border border-gray-300 rounded-md">
             {
                 suStage === 0 && <SuEmailPassword nextButton={nextButton} setEmail={setEmail} setPassword={setPassword} password={password}/>
             }
