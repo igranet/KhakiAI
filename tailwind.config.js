@@ -5,18 +5,31 @@ module.exports = {
         fontFamily: {
             sans: ['Helvetica Neue', 'Helvetica', 'Arial', 'sans-serif'],
         },
-    },
-    extend: {
-        backgroundImage: {
-            'khaki-bg': "url('/public/khakicolors.png')",
-        },
-        animation: {
-            fadeIn: 'fadeIn 2s ease-in forwards',
-        },
-        keyframes: {
-            fadeIn: {
-                '0%': { opacity: 0 },
-                '100%': { opacity: 1 },
+        extend: {
+            backgroundImage: {
+                'khaki-bg': "url('/public/khakicolors.png')",
+            },
+            backgroundSize: {
+                'size-200': '200% 200%',
+            },
+            backgroundPosition: {
+                'pos-0': '0% 0%',
+                'pos-100': '100% 100%',
+            },
+            animation: {
+                backgroundImage: 'backgroundImage 3s ease infinite',
+            },
+            keyframes: {
+                backgroundImage: {
+                    '0%, 100%': {
+                        'background-size': '200% 200%',
+                        'background-position': '0% 0%',
+                    },
+                    '50%': {
+                        'background-size': '200% 200%',
+                        'background-position': '100% 100%',
+                    },
+                },
             },
         },
     },
