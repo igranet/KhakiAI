@@ -34,7 +34,7 @@ const LoginPage = () => {
                             setLoadingState={setLoginLoading}
                             buttonVal={'Login'}
                             toPerform={loginFunc}
-                            styling="bg-orange-400"
+                            styling="bg-orange-600"
                         />
                     </div>
                 </div>
