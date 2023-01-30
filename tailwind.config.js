@@ -1,13 +1,12 @@
 /** @type {import('tailwindcss').Config} */
+const defaultTheme = require('tailwindcss/defaultTheme');
+
 module.exports = {
     content: ['./src/**/*.{html,js}'],
     theme: {
-        fontFamily: {
-            sans: ['Helvetica Neue', 'Helvetica', 'Arial', 'sans-serif'],
-        },
         extend: {
-            backgroundImage: {
-                'khaki-bg': "url('/public/khakicolors.png')",
+            fontFamily: {
+                lato: ['Lato', 'sans-serif'],
             },
             backgroundSize: {
                 'size-200': '200% 200%',
@@ -33,4 +32,5 @@ module.exports = {
             },
         },
     },
+    plugins: [],
 };
