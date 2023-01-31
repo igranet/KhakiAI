@@ -12,7 +12,7 @@ const WelcomePage = () => {
         <div className="w-full flex flex-col bg-slate-300 bg-contain bg-center font-lato">
             {/* Header */}
             <header className="sticky top-0">
-                <nav className="bg-white border-gray-200 px-4 lg:px-6 py-2.5 ">
+                <nav className="bg-white border-gray-200 px-4 lg:px-6 py-2.5">
                     <div className="flex flex-wrap justify-between items-center mx-auto max-w-screen-xl">
                         <a href="#" className="flex items-center">
                             <span className="self-center text-2xl font-semibold whitespace-nowrap text-orange-600">
@@ -110,64 +110,76 @@ const WelcomePage = () => {
 
                 {/* <div className="bg-gradient-to-r from-slate-50 to-slate-400 text-gray-800"> */}
                 {/* Row 1 */}
-                <div id="features" className="p-32 text-2xl">
-                    <div className="text-center w-full flex flex-row justify-center pt-32 pb-16 w-full ">
-                        <div className="w-1/4 lg:w-1/5 sm:w-1/2">
+                <div id="features" className="md:p-32 text-2xl">
+                    <div className="text-left flex flex-col md:flex-row justify-center items-center pt-32 pb-16 md:mx-32 xl:mx-64 2xl:mx-128">
+                        <div className="w-1/4 sm:w-1/2 items-center md:px-20">
                             <FaRegMoneyBillAlt
                                 size={180}
                                 style={{
-                                    horizontalAlign: 'center',
-                                    verticalAlign: 'center',
                                     color: '#424242',
                                 }}
                             />
                         </div>
-                        <div className="w-1/4 lg:w-1/5 sm:w-1/2">
-                            Lorem ipsum dolor sit amet, consectetur adipiscing
-                            elit, sed do eiusmod tempor incididunt ut labore et
-                            dolore magna aliqua. Ut enim ad minim veniam, quis
-                            nostrud exercitation ullamco laboris nisi ut aliquip
-                            ex ea commodo consequat.
+                        <div className="flex flex-col w-1/4 sm:w-1/2">
+                            <div className="text-orange-600 font-semibold sm:py-8">
+                                Save Money
+                            </div>
+                            <div className="">
+                                Lorem ipsum dolor sit amet, consectetur
+                                adipiscing elit, sed do eiusmod tempor
+                                incididunt ut labore et dolore magna aliqua. Ut
+                                enim ad minim veniam, quis nostrud exercitation
+                                ullamco laboris nisi ut aliquip ex ea commodo
+                                consequat.
+                            </div>
                         </div>
                     </div>
                     {/* Row 2 */}
-                    <div className="text-center w-full flex flex-row justify-center items-center pt-16 pb-16 w-full">
-                        <div className="w-1/4 lg:w-1/5 sm:w-1/2">
+                    <div className="text-left flex flex-col-reverse md:flex-row justify-center items-center pt-32 pb-16 md:mx-32 xl:mx-64 2xl:mx-128">
+                        <div className="flex flex-col w-1/4 sm:w-2/3">
+                            <div className="text-orange-600 font-semibold sm:py-8 ">
+                                Save Time
+                            </div>
+                            <div className="">
+                                Lorem ipsum dolor sit amet, consectetur
+                                adipiscing elit, sed do eiusmod tempor
+                                incididunt ut labore et dolore magna aliqua. Ut
+                                enim ad minim veniam, quis nostrud exercitation
+                                ullamco laboris nisi ut aliquip ex ea commodo
+                                consequat.
+                            </div>
+                        </div>
+                        <div className="w-1/4 sm:w-1/2 items-center md:px-20">
                             <FaRegClock
                                 size={180}
                                 style={{
-                                    horizontalAlign: 'center',
-                                    verticalAlign: 'center',
                                     color: '#424242',
                                 }}
                             />
-                        </div>
-                        <div className="w-1/4 lg:w-1/5 sm:w-1/2">
-                            Lorem ipsum dolor sit amet, consectetur adipiscing
-                            elit, sed do eiusmod tempor incididunt ut labore et
-                            dolore magna aliqua. Ut enim ad minim veniam, quis
-                            nostrud exercitation ullamco laboris nisi ut aliquip
-                            ex ea commodo consequat.
                         </div>
                     </div>
                     {/* Row 3 */}
-                    <div className="text-center w-full flex flex-row justify-center items-center pt-16 pb-32 w-full">
-                        <div className="w-1/4 lg:w-1/5 sm:w-1/2">
+                    <div className="text-left flex flex-col md:flex-row justify-between items-center pt-32 pb-16 md:mx-32 xl:mx-64 2xl:mx-128">
+                        <div className="w-1/4 sm:w-1/2 items-center md:px-20">
                             <AiOutlineRobot
                                 size={180}
                                 style={{
-                                    horizontalAlign: 'center',
-                                    verticalAlign: 'center',
                                     color: '#424242',
                                 }}
                             />
                         </div>
-                        <div className="w-1/4 lg:w-1/5 sm:w-1/2">
-                            Lorem ipsum dolor sit amet, consectetur adipiscing
-                            elit, sed do eiusmod tempor incididunt ut labore et
-                            dolore magna aliqua. Ut enim ad minim veniam, quis
-                            nostrud exercitation ullamco laboris nisi ut aliquip
-                            ex ea commodo consequat.
+                        <div className="flex flex-col w-1/4 sm:w-1/2">
+                            <div className="text-orange-600 font-semibold sm:py-8">
+                                AI Automation Shit
+                            </div>
+                            <div className="">
+                                Lorem ipsum dolor sit amet, consectetur
+                                adipiscing elit, sed do eiusmod tempor
+                                incididunt ut labore et dolore magna aliqua. Ut
+                                enim ad minim veniam, quis nostrud exercitation
+                                ullamco laboris nisi ut aliquip ex ea commodo
+                                consequat.
+                            </div>
                         </div>
                     </div>
                 </div>

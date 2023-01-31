@@ -8,6 +8,10 @@ module.exports = {
             fontFamily: {
                 lato: ['Lato', 'sans-serif'],
             },
+            spacing: {
+                128: '32rem',
+                256: '64rem',
+            },
             backgroundSize: {
                 'size-200': '200% 200%',
             },
