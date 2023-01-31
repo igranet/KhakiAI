@@ -120,7 +120,7 @@ const WelcomePage = () => {
                                 }}
                             />
                         </div>
-                        <div className="flex flex-col w-1/4 sm:w-1/2">
+                        <div className="flex flex-col w-2/3">
                             <div className="text-orange-600 font-semibold sm:py-8">
                                 Save Money
                             </div>
@@ -136,8 +136,8 @@ const WelcomePage = () => {
                     </div>
                     {/* Row 2 */}
                     <div className="text-left flex flex-col-reverse md:flex-row justify-center items-center pt-32 pb-16 md:mx-32 xl:mx-64 2xl:mx-128">
-                        <div className="flex flex-col w-1/4 sm:w-2/3">
-                            <div className="text-orange-600 font-semibold sm:py-8 ">
+                        <div className="flex flex-col w-2/3">
+                            <div className="text-orange-600 font-semibold sm:py-8">
                                 Save Time
                             </div>
                             <div className="">
@@ -168,7 +168,7 @@ const WelcomePage = () => {
                                 }}
                             />
                         </div>
-                        <div className="flex flex-col w-1/4 sm:w-1/2">
+                        <div className="flex flex-col w-2/3">
                             <div className="text-orange-600 font-semibold sm:py-8">
                                 AI Automation Shit
                             </div>
